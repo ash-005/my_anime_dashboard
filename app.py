@@ -11,6 +11,7 @@ df.head()
 df['completion_rate'] = (df['my_watched_episodes'] / df['series_episodes']).fillna(0) * 100
 series_type_counts = df['series_type'].value_counts().reset_index()
 series_type_counts.columns = ['series_type', 'count']
+
 app = dash.Dash(__name__)
 app.title = "Ash's Anime Dashboard"
 
