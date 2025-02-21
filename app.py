@@ -14,6 +14,7 @@ series_type_counts.columns = ['series_type', 'count']
 
 app = dash.Dash(__name__)
 app.title = "Ash's Anime Dashboard"
+server = app.server
 
 app.layout = html.Div([
     html.Div([
