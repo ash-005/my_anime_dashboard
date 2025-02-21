@@ -1,6 +1,6 @@
 # Anime Progress Dashboard
 
-A simple web application built using [Dash](https://dash.plotly.com/) to track and visualize anime watching progress. The dashboard provides detailed metrics, visualizations, and tables to make tracking anime progress more interactive and insightful.
+A simple web application built using [Dash](https://dash.plotly.com/) to track and visualize anime watching progress. The dashboard provides detailed metrics, visualizations, and tables to make tracking anime progress more interactive and insightful. The web app is deployed using Render on [here](https://my-anime-dashboard-9.onrender.com/).
 
 ---
 
